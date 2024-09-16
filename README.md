@@ -51,3 +51,5 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+
+Everytime you run the pipeline in jenkins make sure you change the version in pom.xml file, which is <version>0.0.4</version> to new version as it jenkins server will throw error if you dont change 
